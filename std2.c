@@ -26,6 +26,6 @@ void sort(int std_num, struct stud stud1[100])
 
 	for(i=std_num;i>0;i--)
 	{
-      printf("%s\t\t\t%f\t\t%d\n",stud1[i].stud_name,stud1[i].avg_mark,i);
+      printf("%s\t\t\t%f\n",stud1[i].stud_name,stud1[i].avg_mark);
 	}
 }
