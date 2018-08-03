@@ -9,9 +9,9 @@ struct stud
 void sort(int std_num, struct stud stud1[100])
 {
 	int m=std_num;
-	for(i=0;i<std_num;i++)
+	for(i=0;i<=std_num;i++)
 	{
-		for(j=i+1;j<std_num;j++)
+		for(j=i+1;j<=std_num;j++)
 		{
 			if(stud1[i].avg_mark>stud1[j].avg_mark)
 			{
