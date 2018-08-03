@@ -5,7 +5,7 @@ struct stud
 	int roll_no;
 	char stud_name[100],std_class[100],std_div[100];
 	float mark1,mark2,mark3,mark4,mark5,avg_mark;	
-}stud1[100];
+}stud1[100],temp;
 
 int main(int argc, char const *argv[])
 {
