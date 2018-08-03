@@ -24,7 +24,7 @@ void sort(int std_num, struct stud stud1[100])
 	}
 	printf("The students mark in mark wise\n ");
 	printf("\nStudent name\t\tStudent avg_mark\n");
-	for(i=std_num-1;i=>0;i--)
+	for(i=std_num-1;i>=0;i--)
 		printf("%s\t\t\t%f\n",stud1[i].stud_name,stud1[i].avg_mark);
 
 }
